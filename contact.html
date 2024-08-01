@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.R.A.E - Contact</title>
+    <link rel="icon" type="image/x-icon" href="images/crae.png">
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/crae.png" height="60px" width="60px" alt="C.R.A.E Logo">
+        <h1 class= "crae">C.R.A.E</h1>
+        <h4 class="head">Climate Resilient Agricultural Enhancement</h4>
+        </div>
+       <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> PROFILE</a></li>
+        <li><a href="community.html"><i class="fas fa-users"></i> COMMUNITY</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> DETAILS</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> CONTACTS</a></li>
+    </ul>
+</nav>
+
+    </header>
+    
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Administration</h3>
+                    <p><strong>Address:</strong>Sri Sairam Institute of Technology<br> West Tambaram,Chennai-600069.</p>
+                    <p><strong>Phone:</strong>  +91 9003181180</p>
+                    <p><strong>Email:</strong> info@crae.org</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Support</h3>
+                    <p><strong>Email:</strong> support@crae.org</p>
+                    <p><strong>Phone:</strong> +91 9003181180</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="submit_contact_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <b>2024 C.R.A.E | ALL RIGHTS RESERVED <br> POWERED BY <br> TECHNO INNOVATORS</b></p>
+    </footer>
+
+    <script src="scripts\script.js"></script>
+</body>
+</html>

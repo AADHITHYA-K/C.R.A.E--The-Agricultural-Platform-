@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.R.A.E</title>
+    <link rel="icon" type="image/x-icon" href="images/crae.png">
+    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/crae.png" height="60px" width="60px" alt="C.R.A.E Logo">
+        <h1 class= "crae">C.R.A.E</h1>
+        <h4 class="head">Climate Resilient Agricultural Enhancement</h4>
+        </div>
+       <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> PROFILE</a></li>
+        <li><a href="community.html"><i class="fas fa-users"></i> COMMUNITY</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> DETAILS</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> CONTACTS</a></li>
+    </ul>
+    </nav>
+
+    </header>
+ 
+    
+    <main>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="Search for agricultural information..." class="search-bar">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="search-results" class="search-results"></div>
+        <section id="home">
+            <p class="p"><b>In developing regions, smallholder farmers face numerous challenges, including unpredictable weather, limited resources, and market volatility. To address these issues, we propose the Agri-Intelligence Platform, a mobile-based solution designed to provide essential agricultural information to farmers.</p>
+            <img src="images/Crop.jpeg" height="200px" width="90%" alt="Agri-Intelligence Platform">
+            <p class="p">The Agri-Intelligence Platform aims to enhance food security, promote rural development, and drive economic growth in these communities by improving agricultural productivity. By providing farmers with the tools and knowledge they need to succeed, this innovative solution supports smallholder farmers in overcoming the challenges they face and achieving sustainable agricultural success. The Agri-Intelligence Platform has the potential to make a significant impact on the lives of smallholder farmers and their communities. By providing them with access to valuable information and resources, we can help them increase their income, improve their livelihoods, and build more resilient agricultural systems. Ultimately, this platform is an important step towards creating a more food-secure and sustainable future for smallholder farmers in developing regions.</p>
+        </section>
+    </main>
+   <main>
+    <h2>Weather Alerts</h2>
+    <div id="weather-alerts" class="weather-alerts">
+        <p id="rainfall-alert">Loading rainfall data...</p>
+    </div>
+</main>
+  <section id="community">
+        <div class="community-section">
+            <h3 style="color: green;">Weather Details</h3>
+            <div class="weather-inputs">
+                <input type="text" class="city-input" placeholder="Enter city name">
+                <button class="search-btn">Search</button>
+                <button class="location-btn">Use Current Location</button>
+            </div>
+            <div class="weather-info">
+                <div class="current-weather"></div>
+                <div class="weather-cards"></div>
+            </div>
+        </div>
+
+       
+        <div class="community-section">
+            <h3>Crop Suggestions</h3>
+            <div class="crop-suggestions">
+                <ul>
+                    <li><strong>Tomatoes:</strong> Best planted in well-drained soil with full sun exposure.</li>
+                    <li><strong>Carrots:</strong> Requires loose, sandy soil and consistent moisture.</li>
+                    <li><strong>Corn:</strong> Prefers warm temperatures and full sunlight.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="community-section">
+            <h3>Nearby Warehouses</h3>
+            <div class="warehouse-details">
+                <ul>
+                    <li><strong>Greenfield Warehouse:</strong> 123 Main St, Greenfield. Contact: +91 9742833748</li>
+                    <li><strong>Riverside Storage:</strong> 456 River Rd, Riverside. Contact: +91 7073968297</li>
+                    <li><strong>Hillside Depot:</strong> 789 Hill Ave, Hillside. Contact: +91 7653963601</li>
+                </ul>
+            </div>
+        </div>
+  </section>
+
+    <footer>
+        <p>&copy; <b>2024 C.R.A.E | ALL RIGHTS RESERVED <br> POWERED BY <br> TECHNO INNOVATORS</b></p>
+    </footer>
+
+    <script src="scripts\script.js"></script>
+</body>
+</html>

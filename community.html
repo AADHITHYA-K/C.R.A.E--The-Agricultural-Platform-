@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.R.A.E - Community</title>
+    <link rel="icon" type="image/x-icon" href="images/crae.png">
+    <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body class="bg">
+    <header>
+        <img src="images/crae.png" height="60px" width="60px" alt="C.R.A.E Logo">
+        <h1 class= "crae">C.R.A.E</h1>
+        <h4 class="head">Climate Resilient Agricultural Enhancement</h4>
+        <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> PROFILE</a></li>
+        <li><a href="community.html"><i class="fas fa-users"></i> COMMUNITY</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> DETAILS</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> CONTACTS</a></li>
+    </ul>
+</nav>
+
+    </header>
+
+    <main >
+        <h2>Tamil Nadu Agricultural Schemes</h2>
+        <button id="show-schemes-button">Show Schemes</button>
+        <div id="schemes-container" class="schemes-container" style="display: none">
+            <section class="bg" >
+                <div class="scheme">
+                    <img src="images/pmksy.jpeg" alt="PMKSY Scheme Image" class="scheme-image">
+                    <h3>1. Pradhan Mantri Krishi Sinchai Yojana (PMKSY)</h3>
+                    <p>Description: Aims to enhance access to irrigation and water conservation.</p>
+                    <p>Application Platform: <a href="https://pmksy.gov.in/" target="_blank">Apply Here</a></p>
+                </div>
+                <div class="scheme">
+                    <img src="images/enam.jpeg" alt="eNAM Scheme Image" class="scheme-image">
+                    <h3>2. National Agriculture Market (eNAM)</h3>
+                    <p>Description: Provides an online trading platform for agricultural commodities.</p>
+                    <p>Application Platform: <a href="https://enam.gov.in/" target="_blank">Apply Here</a></p>
+                </div>
+                <div class="scheme">
+                    <img src="images/Pmfby.jpg" alt="PMFBY Scheme Image" class="scheme-image">
+                    <h3>3. Pradhan Mantri Fasal Bima Yojana (PMFBY)</h3>
+                    <p>Description: Crop insurance scheme to provide financial support to farmers in case of crop failure.</p>
+                    <p>Application Platform: <a href="https://pmfby.gov.in/" target="_blank">Apply Here</a></p>
+                </div>
+                <div class="scheme">
+                    <img src="images/PradhanMantriKisanSammanNidhi.jpg" alt="PM-KISAN Scheme Image" class="scheme-image">
+                    <h3>4. Pradhan Mantri KISAN Samman Nidhi (PM-KISAN)</h3>
+                    <p>Description: Under the scheme, an income support of ₹6,000 per year in three equal installments will be provided to all landholding farmer families.</p>
+                    <p>Application Platform: <a href="https://pmkisan.gov.in/" target="_blank">Apply Here</a></p>
+                </div>
+            </section>
+            <section>
+                <h2>Upcoming Schemes</h2>
+                <div class="scheme">
+                    <img src="images/cm.jpeg" alt="Mannuyir Kaathu Mannuyir Kappom Scheme Image" class="scheme-image">
+                    <h3>Mannuyir Kaathu Mannuyir Kappom</h3>
+                    <p>Description: Chief Minister’s Mannuyir Kaathu Mannuyir Kappom Scheme to preserve soil fertility by distributing green manure seeds to farmers.</p>
+                    <p>Application Platform: <b>Will be launched soon...</b></p>
+                </div>
+            </section>
+        </div>
+    </main>
+   <main>
+        <!-- News Section -->
+        <h2>Live Agriculture Sector News and Updates</h2>
+        <div id="news-container" class="news-container"></div>
+    </main>
+    <main>
+    <!-- Vegetable Prices Section -->
+    <h2>Current Vegetable Prices</h2>
+    <div id="vegetable-prices-container" class="vegetable-prices-container">
+        <p>Loading...</p>
+    </div>
+</main>
+  
+
+
+
+    <footer>
+        <p>&copy; <b>2024 C.R.A.E | ALL RIGHTS RESERVED <br> POWERED BY <br> TECHNO INNOVATORS</b></p>
+    </footer>
+
+    <script src="scripts/scheme.js"></script>
+</body>
+</html>
