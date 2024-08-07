@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
             rainfallAlertElement.className = 'alert-error'; // Apply error styling
         }
     }
- // Existing code for schemes
+ // Existing code for scheme
 document.getElementById('show-schemes-button').addEventListener('click', function() {
     var schemesContainer = document.getElementById('schemes-container');
     if (schemesContainer.style.display === 'none' || schemesContainer.style.display === '') {
